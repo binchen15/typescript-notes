@@ -62,8 +62,10 @@
 
 8.	function basics
 
+```
 const add = (a: number, b: number, c ? : number|string)
 const add = (a: number, b: number, c: number|string = 15)
+```
 
 9.	type aliases
 
@@ -71,9 +73,10 @@ const add = (a: number, b: number, c: number|string = 15)
 
 10.	function signature
 
+```
 	let greet: Function;
 	let greet: (a:string, b:string) => void
-
+```
 11.	DOM and Type Casting
 
 12.	Classes
@@ -105,6 +108,7 @@ const add = (a: number, b: number, c: number|string = 15)
 
 e.g.,
 
+```
 interface Resource<T> {
 	uid: string|number;
 	resource:string;
@@ -116,16 +120,19 @@ const doc: Resource<object> = {
 	resouceName: "Book",
 	data: {name:"Go with Wind"}
 }
+```
 
 19.	Enums
 
+```
 	enum ResourceType {BOOK, AUTHOR, FILM}
 	ResourceType.BOOK
+```
 
 20.	typles
 
-	let tup:[string, number] = ["", 1]
-	; each entry type is fixed. can change value, but not type
+
+	`let tup:[string, number] = ["123", 1]  // each entry type is fixed. can change value, but not type`
 
 	
 
