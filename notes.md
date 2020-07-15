@@ -26,6 +26,7 @@
 
 5.	explicit types
 
+```
 	let ninjas: string[]
 
   	// union type
@@ -44,21 +45,26 @@
 			age: number,
 			belt: string
 		}
+```
 
 6.	dynamic/any types
 
+```
 	let a: any = 25
 	a = true; // ok
 
 	let ar: any[]
+```
 
 7.	tsconfig
 
 	tsc --init
 	; tsconfig.json
 
+	```
 	"outDir": "./public", 
-    "rootDir": "./src",   
+	"rootDir": "./src",
+	```   
 
 8.	function basics
 
